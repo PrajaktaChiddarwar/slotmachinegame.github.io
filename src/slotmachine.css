@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(209, 176, 176);
+}
+
+.Heading-style
+{
+    margin-top: 5px;
+    padding: 20px;
+    width: 100%;
+   text-transform: capitalize;
+   text-align: center;
+    font-weight: 500;
+    /* display: inline;
+    align-content: center;
+    justify-content: center; */
+
+}
+
+/* .slot
+{
+    border-spacing: 2px dashed rgb(39, 39, 46);
+    margin-left: 300px;
+    margin-top: 5px;
+    width: 450px;
+} */
+
+.slot-inner
+{
+    /* width: 400px;
+    height: auto; */
+    text-align: center;
+    font-size: 15px;
+    /* margin: 20px 10px 10px 20px; */
+    
+}
+
+.slotMachine
+{
+    display: flex;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 20px;
+    text-align: center;
+    border: 2.2px solid black;
+    /* font-weight: 300;
+    font-size: medium;
+    font-style: italic; */
+    line-height: 40px;
+
+    flex-direction: column;
+    justify-items: center;
+}
+.slot-inner .emoji
+{
+    font-style: normal;
+}
